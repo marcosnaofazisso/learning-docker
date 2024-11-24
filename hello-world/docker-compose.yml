@@ -1,0 +1,20 @@
+
+
+services:
+  hello-world-node:
+    build:
+      context: ./node
+    image: hello-world-node
+    container_name: container-hello-world-node
+
+  hello-world-python:
+    build:
+      context: ./python
+    image: hello-world-python
+    container_name: container-hello-world-python
+
+  hello-world-bash:
+    build:
+      context: ./bash
+    image: hello-world-bash
+    container_name: container-hello-world-bash

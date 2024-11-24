@@ -1,1 +1,1 @@
-console.log("Hello, Docker! Node.js is running inside of container!");
+console.log("Hello, Docker! NodeJS is running inside of container!");
