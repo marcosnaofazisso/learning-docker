@@ -1,1 +1,1 @@
-print("Hello, Docker! Python running inside of container!")
+print("Hello, Docker! Python running inside container!")

@@ -1,5 +1,3 @@
-
-
 services:
   hello-world-node:
     build:
@@ -18,3 +16,21 @@ services:
       context: ./bash
     image: hello-world-bash
     container_name: container-hello-world-bash
+
+  hello-world-go:
+    build:
+      context: ./go
+    image: hello-world-go
+    container_name: container-hello-world-go
+
+  hello-world-ruby:
+    build:
+      context: ./ruby
+    image: hello-world-ruby
+    container_name: container-hello-world-ruby
+
+  hello-world-rust:
+    build:
+      context: ./rust
+    image: hello-world-rust
+    container_name: container-hello-world-rust
