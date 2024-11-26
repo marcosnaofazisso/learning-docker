@@ -11,6 +11,12 @@ services:
     image: hello-world-python
     container_name: container-hello-world-python
 
+  hello-world-bash-light:
+    build:
+      context: ./bash-light
+    image: hello-world-bash-light
+    container_name: container-hello-world-bash-light
+
   hello-world-bash:
     build:
       context: ./bash
