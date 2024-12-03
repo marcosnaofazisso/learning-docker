@@ -1,4 +1,10 @@
 services:
+  hello-world-c:
+    build:
+      context: ./c
+    image: hello-world-c
+    container_name: container-hello-world-c
+    
   hello-world-node:
     build:
       context: ./node
